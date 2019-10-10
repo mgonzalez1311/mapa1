@@ -64,7 +64,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
             public void onMapClick(LatLng latLng) {
                 String Posicion= latLng.latitude+"," + latLng.longitude;
              //   Toast.makeText(getApplicationContext(), Posicion, Toast.LENGTH_LONG).show();
-                mMap.addMarker(new MarkerOptions().position(latLng).title("Marcador dinàmico"));
+                mMap.addMarker(new MarkerOptions().position(latLng).title("Marcador dinámico1"));
             }
         });
     }
