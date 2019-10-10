@@ -19,6 +19,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 Intent I= new Intent(getApplicationContext(), MapsActivity.class);
                 startActivity(I);
+                //-------
             }
         });
     }
